@@ -1,4 +1,4 @@
-#! /home/usuario/.rbenv/shims/ruby 
+#! /usr/local/rubies/current/bin/ruby
 # Ejemplo de Programación Estructurada o Modular
 
 def perimetro_cuadrado(longitud_lado)
