@@ -17,6 +17,17 @@ def area_triangulo(base, altura)
   base * altura / 2.0
 end
 
+# perimetro de un circulo
+def perimetro_circulo(radio)
+  2 * Math::PI * radio
+end
+
+#area de un circulo
+def area_circulo(radio)
+  Math::PI * radio * radio
+end
+
+
 # Línea de comando
 puts "\nLínea de comando: "
 
