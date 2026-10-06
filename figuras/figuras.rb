@@ -60,3 +60,11 @@ while i <= $n
   puts "Área de un triángulo de base y altura #{i}: #{area_triangulo(i, i)}"
   i += 1
 end
+
+puts "\n--|--|--| Círculo  |--|--|--\n"
+i = 1
+while i <= $n
+  puts "Perímetro de un círculo de radio #{i}: #{perimetro_circulo(i)}"
+  puts "Área de un círculo de radio #{i}: #{area_circulo(i)}"
+  i += 1
+end
